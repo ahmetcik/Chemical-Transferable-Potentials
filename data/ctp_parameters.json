@@ -1,0 +1,54 @@
+{
+"r_cut_2b": 6.0,
+"r_cut_3b": 6.0,
+"cutoff_width_2b": 6.0,
+"cutoff_width_3b": 6.0,
+"r_centers": [
+0.0,
+0.0,
+0.0,
+0.0,
+0.0,
+0.0
+],
+"sigmas": [
+0.5,
+0.7,
+1.0,
+1.5,
+2.0,
+3.0
+],
+"degrees": null,
+"degrees_eam": [
+],
+"sigma_eam": 3.0,
+"ortho_2b": null,
+"ortho_eam": [
+0.0,
+7.0
+],
+"finite_diff_forces": 0.01,
+"finite_diff_stress": 0.01,
+"activation": "relu",
+"std_init_weights": 0.1,
+"non_negative": [
+0,
+1
+],
+"architecture_2b": [
+500
+],
+"architecture_3b": [
+500
+],
+"architecture_eam": [
+1
+],
+"pot_weights": [
+1.0,
+0.00000001,
+1.0
+],
+"atomic_info": null
+}
