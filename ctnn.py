@@ -179,7 +179,7 @@ class ChemicalTransferNeuralNetwork(object):
 
     def load_weights(self, path=None, filename='weights'):
         path = self._get_path(path=path, filename=filename+'.npy')
-        weights_dict = np.load(path)[()]
+        weights_dict = np.load(path, allow_pickle=True)[()]
         self.set_weights(weights_dict['Ws_2b'], weights_dict['Ws_eam'], weights_dict['Ws_3b'],
                          weights_dict['Bs_2b'], weights_dict['Bs_eam'], weights_dict['Bs_3b'])
         return weights_dict['epoch']
