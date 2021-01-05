@@ -1,2 +1,2 @@
-# Chemical-Transferable-Potentials-
-A python module for building Chemical-tranferabel machine-learning potentials (CTPs), i.e. transfering the compound dependent parameters of 2b+3b machine-learning potentials by some neural network. CTPs are models for atomistic simulation. They approximate the Born-Oppenheimer potential-energy suraface using density-functional-theory calculations as training data. The 2b+3b descriptor and potential module can be accesed also independently of the CTP approach. Publication is in preparation.
+# Chemical-transferable-potentials
+Module for building chemical-tranferabel potentials (CTPs), e.g. fitting the compound dependent linear parameters of 2b+3b potentials via a neural network. The 2b+3b descriptor and potential module can be accesed also independently of the CTP approach.
